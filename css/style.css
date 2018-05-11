@@ -1,9 +1,8 @@
 body {
-    /* background-image: url("../img/bg.jpg"); */
+    background-image: url("../img/bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     position: relative;
 }
 
@@ -11,7 +10,8 @@ body {
     background-color: #00000071;
 }
 .welcome { text-align: center;
-    min-height: 90vh;
+    min-height: 88vh;
     padding-top: 20%;
-
+    padding-left: 10%;
+    color: #DE995E;
 }
