@@ -14,10 +14,16 @@
     color: white;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("../img/bg.jpg");
 
-/* .welcome { text-align: center;
-    min-height: 88vh;
-    padding-top: 20%;
-    padding-left: 10%;
-    color: #DE995E;
-} */
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
