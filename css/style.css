@@ -1,0 +1,12 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+#navigation {
+    background-color: #00000071;
+}
