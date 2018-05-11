@@ -1,17 +1,24 @@
-body {
+.opacityFix {
+    background-color: #00000071;
+}
+
+.welcome {
     background-image: url("../img/bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    min-height: 100vh;
+    padding-top: 20%;
+    padding-left: 10%;
 }
 
-#navigation {
-    background-color: #00000071;
-}
-.welcome { text-align: center;
+
+
+
+/* .welcome { text-align: center;
     min-height: 88vh;
     padding-top: 20%;
     padding-left: 10%;
     color: #DE995E;
-}
+} */
